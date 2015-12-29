@@ -9,7 +9,6 @@ var Notes = React.createClass({
         addNote: React.PropTypes.func.isRequired
     },
     render:function(){
-  console.log('Notes:', this.props.notes);
         return (
             <div>
                <h3>Notes for {this.props.username}</h3>
@@ -18,5 +17,5 @@ var Notes = React.createClass({
             </div>
         )
     }
-});
+})
 module.exports = Notes;
